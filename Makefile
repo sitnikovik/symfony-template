@@ -34,6 +34,7 @@ symfony-update-db-schema: # Обновить схему БД
 ###< Symfony ###
 
 ###> App ###
+init: docker-build compile # Первый инит приложения
 compile: composer-install # Собрать приложение
 	npm install && npm run build
 ###< App ###

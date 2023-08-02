@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  php:
+    container_name: symfony_template
+    build: ./docker/php
+    ports:
+      - "9000:8000"
+    volumes:
+      - .:/var/www/html

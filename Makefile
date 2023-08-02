@@ -1,4 +1,4 @@
-APP_CONTAINER_NAME = app
+APP_CONTAINER_NAME = symfony_template
 
 ###> Docker ###
 docker-build: # Сбилдить докер
